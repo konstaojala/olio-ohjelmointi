@@ -14,7 +14,7 @@ void calcDiv(int a, int b)
 {
     if (b == 0)
     {
-    cout << "Jakaja saa olla nolla" << endl;
+    cout << "Jakaja ei saa olla nolla" << endl;
     }
     else
     {
