@@ -14,7 +14,7 @@ void calcDiv(int a, int b)
 {
     if (b == 0)
     {
-    cout << "Jakaja voi olla nolla" << endl;
+    cout << "Jakaja saa olla nolla" << endl;
     }
     else
     {
@@ -33,7 +33,7 @@ float retDiv(int a, int b)
 {
     if (b == 0)
     {
-    throw runtime_error("jakaja ei voi olla nolla");
+    throw runtime_error("jakaja ei saa olla nolla");
     }
 
     float tulos = (float)a / b;
